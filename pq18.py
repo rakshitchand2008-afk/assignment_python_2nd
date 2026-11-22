@@ -1,0 +1,5 @@
+text = input("Enter text: ")
+word = input("Enter word to check: ")
+words = text.split()
+print("In:", word in words)
+print("Not in:", word not in words)

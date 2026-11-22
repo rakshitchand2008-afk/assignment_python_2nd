@@ -1,0 +1,23 @@
+a = int(input("Enter a number: "))
+b = int(input("Enter value: "))
+print("Initial value:", a)
+a += b
+print("+=:", a)
+a -= b
+print("-=:", a)
+a *= b
+print("*=:", a)
+if b != 0:
+    a /= b
+    print("/=:", a)
+if b != 0:
+    a = int(a)
+    a //= b
+    print("//=:", a)
+if b != 0:
+    a %= b
+    print("%=:", a)
+a = int(input("Enter number for exponent compound operators: "))
+b = int(input("Enter exponent: "))
+a **= b
+print("**=:", a)
